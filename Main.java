@@ -61,8 +61,9 @@ public class Main{
     	textArea.add(welcomeText);
     	
     	// button area for choosing game
-    	buttonArea.setLayout(new GridLayout(1,2));
+    	buttonArea.setLayout(new GridLayout(1,3));
     	buttonArea.add(sokoban);
+		buttonArea.add(levelChooser);
     	buttonArea.add(twentyFortyEight);
     	
     	
